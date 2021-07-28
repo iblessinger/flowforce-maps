@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="DATA">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ITEM_DETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="WAREHOUSE_ID" type="xs:string"/>
+							<xs:element name="COMPANY_NO" type="xs:string"/>
+							<xs:element name="ITEM" type="xs:string"/>
+							<xs:element name="ITEM_DESC1" type="xs:string"/>
+							<xs:element name="ITEM_DESC2" type="xs:string"/>
+							<xs:element name="ITEM_SHORT_DESC" type="xs:string"/>
+							<xs:element name="ITEM_GROUP1" type="xs:string"/>
+							<xs:element name="ITEM_GROUP2" type="xs:string"/>
+							<xs:element name="ITEM_GROUP3" type="xs:string"/>
+							<xs:element name="ITEM_GROUP4" type="xs:string"/>
+							<xs:element name="ITEM_GROUP5" type="xs:string"/>
+							<xs:element name="ITEM_GROUP6" type="xs:string"/>
+							<xs:element name="ITEM_GROUP7" type="xs:string"/>
+							<xs:element name="ITEM_GROUP8">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_GROUP9">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_GROUP10">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_SUBTYPE" type="xs:string"/>
+							<xs:element name="WEIGHT_UOM" type="xs:string"/>
+							<xs:element name="VOLUME_UOM">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="UNIT_LENGTH" type="xs:byte"/>
+							<xs:element name="UNIT_WIDTH" type="xs:decimal"/>
+							<xs:element name="UNIT_HEIGHT" type="xs:byte"/>
+							<xs:element name="UNIT_VOLUME" type="xs:decimal"/>
+							<xs:element name="CASE_LENGTH" type="xs:byte"/>
+							<xs:element name="CASE_WIDTH" type="xs:decimal"/>
+							<xs:element name="CASE_HEIGHT" type="xs:byte"/>
+							<xs:element name="CASE_VOLUME" type="xs:decimal"/>
+							<xs:element name="PALLET_LENGTH" type="xs:byte"/>
+							<xs:element name="PALLET_WIDTH" type="xs:byte"/>
+							<xs:element name="PALLET_HEIGHT" type="xs:byte"/>
+							<xs:element name="PALLET_VOLUME" type="xs:byte"/>
+							<xs:element name="PACK_LENGTH" type="xs:byte"/>
+							<xs:element name="PACK_WIDTH" type="xs:byte"/>
+							<xs:element name="PACK_HEIGHT" type="xs:byte"/>
+							<xs:element name="PACK_VOLUME" type="xs:byte"/>
+							<xs:element name="UNIT_WEIGHT" type="xs:decimal"/>
+							<xs:element name="PACK_WEIGHT" type="xs:byte"/>
+							<xs:element name="CASE_WEIGHT" type="xs:byte"/>
+							<xs:element name="PALLET_WEIGHT" type="xs:byte"/>
+							<xs:element name="DATE_ON_PALLET">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="UNITS_PER_CASE" type="xs:byte"/>
+							<xs:element name="CASES_PER_PALLET" type="xs:short"/>
+							<xs:element name="CASES_PER_LAYER" type="xs:short"/>
+							<xs:element name="LAYER_PER_PALLET" type="xs:byte"/>
+							<xs:element name="UNITS_PER_SHIPPER" type="xs:byte"/>
+							<xs:element name="ITEM_CODE_AIR">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_CODE_GROUND">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_CODE_OCEAN">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ITEM_CODE_RAIL">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="SELL_BY_DAYS" type="xs:byte"/>
+							<xs:element name="SHELF_LIFE_DAYS" type="xs:short"/>
+							<xs:element name="UPC" type="xs:long"/>
+							<xs:element name="EAN">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="EPC">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="ABC_CLASSIFICATION" type="xs:string"/>
+							<xs:element name="DEFAULT_PICKING_METHOD">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ITEM" type="xs:string"/>
+							<xs:element name="MATERIAL_COST" type="xs:byte"/>
+							<xs:element name="LABOR_COST" type="xs:byte"/>
+							<xs:element name="OVERHEAD_COST" type="xs:byte"/>
+							<xs:element name="NO_COST_FLAG" type="xs:string"/>
+							<xs:element name="COST_METHOD">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="CROSS_DOCK_FLAG" type="xs:string"/>
+							<xs:element name="SRLNO_TRACKING" type="xs:string"/>
+							<xs:element name="SRLNO_TRACK_POINT" type="xs:string"/>
+							<xs:element name="SRLNO_TRACK_LEVEL">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="LOT_TRACK_FLAG" type="xs:string"/>
+							<xs:element name="CATCH_WEIGHT_DURING_RECEIPT" type="xs:string"/>
+							<xs:element name="CATCH_WEIGHT_DURING_SHIPMENTS" type="xs:string"/>
+							<xs:element name="NON_INVENTORY_ITEM" type="xs:string"/>
+							<xs:element name="INV_ALLOC_REQ_FLAG" type="xs:string"/>
+							<xs:element name="SHIPPER_TYPE" type="xs:string"/>
+							<xs:element name="CURRENCY">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="HARMONIZED_CODE">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="COUNTRY_OF_ORIGIN" type="xs:string"/>
+							<xs:element name="MISC_COST_1" type="xs:byte"/>
+							<xs:element name="MISC_COST_2" type="xs:byte"/>
+							<xs:element name="MISC_COST_3" type="xs:byte"/>
+							<xs:element name="MISC_COST_4" type="xs:byte"/>
+							<xs:element name="QC_HOLD_CODE_1">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="QC_HOLD_CODE_2">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="QC_HOLD_CODE_3">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="BOM_EXISTS">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_TYPE1">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ID1">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_TYPE2">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ID2">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_TYPE3">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ID3">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_TYPE4">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ID4">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_TYPE5">
+								<xs:complexType/>
+							</xs:element>
+							<xs:element name="REF_ID5">
+								<xs:complexType/>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
